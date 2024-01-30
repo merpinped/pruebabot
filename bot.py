@@ -20,7 +20,7 @@ logging.basicConfig(
 
 # This function responds to start command handler
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await context.bot.send_message(chat_id=update.effective_chat.id, text="Son un bot, dime algo!")
+    await context.bot.send_message(chat_id=update.effective_chat.id, text="YOW!")
 
 # This function responds to echo handler
 async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
